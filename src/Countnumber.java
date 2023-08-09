@@ -8,8 +8,10 @@ public class Countnumber {
             int remainder = n % 10;
             if( remainder == 9){
                 count ++;
+
             }
             n = n / 10;
+
 
         }
         System.out.println(count);
